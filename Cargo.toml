@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-aptos-testcontainer = { version = "0.1.2" }
+aptos-testcontainer = { version = "0.1.2", features = ["testing"] }
 aptos-sdk = { git = "https://github.com/aptos-labs/aptos-core", branch = "mainnet" }
 
 tokio = { version = "1.0.0", features = ["rt", "rt-multi-thread", "macros"] }
